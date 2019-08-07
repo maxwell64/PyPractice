@@ -1,3 +1,5 @@
+#Reverses a given string
+
 def String_Reverser(thing):
 
   thing = str(thing)
