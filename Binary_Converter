@@ -1,3 +1,5 @@
+#Takes an integer input and converts it to binary or vice versa
+
 def binaryConverter():
 
   start = str(input('Do you want Binary or Decimal? '))
