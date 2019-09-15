@@ -1,6 +1,5 @@
-import math
-
 def digitSquaredSum(inp):
+    #returns the sum of all the digits in the input squared
 
     inpSquaredSum = 0
     digits = str(inp)
@@ -10,9 +9,8 @@ def digitSquaredSum(inp):
 
     return inpSquaredSum
 
-print(digitSquaredSum(125))
-
 def happyNumbers(inp):
+    #determines if the input is a happy number
 
     number = digitSquaredSum(inp)
     checked = []
@@ -24,6 +22,7 @@ def happyNumbers(inp):
     return number == 1
 
 def happyCheck(limit):
+    #prints a list of the happy numbers up to the given limit
 
     happyList = []
 
